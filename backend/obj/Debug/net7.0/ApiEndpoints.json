@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "CampaignsController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Campaigns/{id}/status",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "CampaignsController\u002BStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampaignsController",
+    "Method": "Get",
+    "RelativePath": "api/Campaigns/getCampaigns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
